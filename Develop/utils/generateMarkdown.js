@@ -29,7 +29,9 @@ ${data.description}
 
 ## Installation
 To install necessary dependencies, run the following command:
-        ${data.installation}
+
+    ${data.installation}
+
 
 ## Usage
 ${data.usage}
@@ -42,7 +44,8 @@ ${data.contributing}
 
 ## Tests
 To run tests, run the following command:
-        ${data.test}
+
+    ${data.test}
 
 ## Questions
 If you have any questions about this project, please open an issue or contact me at ${data.email}. You can find more of my work at ${data.github}!
