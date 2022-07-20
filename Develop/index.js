@@ -67,8 +67,6 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then(data=>{
-        console.log(data)
-        console.log(generateMarkdown(data))
         writeToFile('test.md', generateMarkdown(data))
     })
 
