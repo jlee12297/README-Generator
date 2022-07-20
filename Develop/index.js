@@ -27,7 +27,8 @@ const questions = [
     },
     {
         message:"Which license will this project be created under?",
-        type:"input",
+        choices: ['N/A', 'Apache 2.0', 'Boost Software', 'IBM Public', 'The MIT'],
+        type:"list",
         name:"license"
     },
     {
@@ -46,7 +47,7 @@ const questions = [
         name:"email"
     },
     {
-        message:"Please provide your GitHub Link: ",
+        message:"Please provide your GitHub Username: ",
         type:"input",
         name:"github"
     },
@@ -70,6 +71,8 @@ function init() {
         console.log(generateMarkdown(data))
         writeToFile('test.md', generateMarkdown(data))
     })
+
+
 
     
 }
