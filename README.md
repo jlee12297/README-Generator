@@ -5,3 +5,4 @@ This project was built entirely using javascript and using node js plus inquirer
 Basic Steps:
 User should use the terminal to navigate into the README-GENERATOR Develop folder, then they may use the command node index.
 The user should then be able to answer all the questions to populate the README file, and a file called test.md should be generated w/ the users new personalized generated README.
+Video Tutorial Link: https://github.com/jlee12297/README-Generator/blob/main/Untitled_%20Jul%2019%2C%202022%2011_55%20PM.webm
